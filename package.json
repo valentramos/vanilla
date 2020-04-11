@@ -1,0 +1,31 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "Single page aplication",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --modo production",
+    "start": "webpack-dev-server --open -- mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentramos/vanilla.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Valent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valentramos/vanilla/issues"
+  },
+  "homepage": "https://github.com/valentramos/vanilla#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
