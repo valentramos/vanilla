@@ -1,31 +1,24 @@
 {
-  "name": "vanilla",
+  "name": "cientifico",
   "version": "1.0.0",
-  "description": "Single page aplication",
+  "description": "single page application",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --modo production",
-    "start": "webpack-dev-server --open -- mode development"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/valentramos/vanilla.git"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [
     "javascript"
   ],
-  "author": "Valent",
+  "author": "Oscar Barajas <oscar@platzi.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/valentramos/vanilla/issues"
-  },
-  "homepage": "https://github.com/valentramos/vanilla#readme",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "babel-loader": "^8.1.0",
-    "html-webpack-plugin": "^4.2.0",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "@babel/core": "^7.7.5",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }
